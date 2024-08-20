@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
+
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Welcome to Home Screen</Text>
@@ -12,11 +14,6 @@ const HomeScreen = ({ navigation }) => {
             <Button title="Configuracion" onPress={() => navigation.navigate('')} />
             <View style={styles.spacer} />
             <Button title="Logout" onPress={() => navigation.navigate('Login')} />
-
-
-                //uwu
-
-
 
         </View>
     );
