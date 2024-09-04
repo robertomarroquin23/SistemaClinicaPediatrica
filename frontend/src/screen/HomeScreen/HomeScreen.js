@@ -11,10 +11,11 @@ const HomeScreen = ({ navigation }) => {
             <View style={styles.spacer} />
             <Button title="Historial" onPress={() => navigation.navigate('History')} />
             <View style={styles.spacer} />
-            <Button title="Configuracion" onPress={() => navigation.navigate('')} />
+            <Button title="Configuracion" onPress={() => navigation.navigate('Setting')} />
+            <View style={styles.spacer} />
+            <Button title="Doctor" onPress={() => navigation.navigate('Doctor')} />
             <View style={styles.spacer} />
             <Button title="Logout" onPress={() => navigation.navigate('Login')} />
-
         </View>
     );
 };
